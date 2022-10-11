@@ -9,7 +9,7 @@ from .._config import FAST_CHECK_DF_SERIALIZABLE
 from .._util import NP_OBJECT_DTYPE
 from ..exceptions import ArcticException
 
-try:  # 0.21+ Compatibility
+try:  # 0.21+ Compatibilityƒ
     from pandas._libs.tslib import Timestamp
     from pandas._libs.tslibs.timezones import get_timezone
 except ImportError:
